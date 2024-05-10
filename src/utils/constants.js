@@ -8,9 +8,12 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    // Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5YTRmYmQ1NjQ5ZDAzYzdhZTU3YTY3NTEwOWYxMDc4MSIsInN1YiI6IjY2Mjc0MWNmY2I1YzhlMDE4NzQyY2I4ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.APAgsoIvc63w7H-cXtTGuIrJFYRKa7Kyt4PB2utLN-8",
+
+    //   Authorization:
+    //     "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5YTRmYmQ1NjQ5ZDAzYzdhZTU3YTY3NTEwOWYxMDc4MSIsInN1YiI6IjY2Mjc0MWNmY2I1YzhlMDE4NzQyY2I4ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.APAgsoIvc63w7H-cXtTGuIrJFYRKa7Kyt4PB2utLN-8",
+    //
+
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
@@ -24,5 +27,7 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
 ];
+
+// export const OPENAI_KEY="sk-proj-TVGjfLabJpCE2URAzH0BT3BlbkFJ7cg92hsKY4I5qkHJoCQ1";
 
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
