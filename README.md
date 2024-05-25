@@ -31,15 +31,25 @@ services: Firebase authentication and GPT API integration.
 .env: Environment variables for sensitive data.
 
 **Features**
-Personalized Recommendations: Tailored movie and TV show suggestions based on user preferences.
+
+Personalized Recommendations: Tailored movie and TV show suggestions based on user preferences. 
+
 Natural Language Conversations: Engage in insightful conversations with the AI for content discovery.
+
 Detailed Information: Access comprehensive details about movies and TV shows.
+
 Secure Authentication: User authentication managed through Firebase for privacy and security.
+
 Now Playing Movies: Fetch and display data from TMDB's now playing movies list.
+
 Trailer Integration: Embed YouTube trailers with autoplay and mute features.
+
 GPT Search: Leverage GPT-3 for natural language search and personalized movie suggestions.
+
 Multi-language Support: Explore content in multiple languages.
+
 Responsive Design: Seamless user experience across devices.
+
 =======
 
 
